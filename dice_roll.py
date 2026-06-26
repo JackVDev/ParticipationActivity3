@@ -7,3 +7,7 @@
 
 class Die:
     """A simple class for simulating dice rolls"""
+
+    def __init__(self, sides):
+        """Initializing the sides attribute"""
+        self.sides = sides
