@@ -15,3 +15,7 @@ class Die:
     
     def roll_dice(self):
         print(random.randint(1, self.sides))
+
+dice_6 = Die(6)
+for l in range(10):
+    dice_6.roll_dice()
