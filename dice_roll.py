@@ -19,3 +19,11 @@ class Die:
 dice_6 = Die(6)
 for l in range(10):
     dice_6.roll_dice()
+
+dice_10 = Die(10)
+dice_20 = Die(20)
+
+for l in range(10):
+    dice_6.roll_dice()
+    dice_10.roll_dice()
+    dice_20.roll_dice()
