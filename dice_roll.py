@@ -9,7 +9,7 @@ import random
 class Die:
     """A simple class for simulating dice rolls"""
 
-    def __init__(self, sides):
+    def __init__(self, sides=6):
         """Initializing the sides attribute"""
         self.sides = sides
     
